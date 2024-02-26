@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #023047
+}
+
+.tela-login .nome{
+    margin: 0%;
+}
+
+.tela-login{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+width: 100%;
+height: 100vh;
+display: flex;
+background-color: #480ca8;
+}
+
+.tela-login .senha{
+    height: 30px;
+    width: 130;
+    border-radius: 5px;
+    border-color: dodgerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.formLogin {
+display: flex;
+flex-direction: column;
+background-color: #fff;
+border-radius: 7px;
+padding: 40px;
+box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+gap: 5px
+}
+
+.tela-login button {
+font-size: 20px;
+color: rgb(190, 87, 221);
+background-color: #0e2fc2;
+height: 50px;
+width: 175px;
+cursor: pointer;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tela-login button:hover {
+background-color: #0431ac;
+}
+
