@@ -10,6 +10,6 @@ document.getElementsByClassName("formLogin")[0].addEventListener("submit", funct
     
     else{
         alert("login bem-sucedido");
-        window.location.href ="https://www.youtube.com/";
+        window.location.href ="../principal.html";
     }
 });

@@ -1,0 +1,76 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #023047
+    
+}
+
+.op{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 115px 115px;
+    background-color: rgb(24, 155, 155);
+    width: 500px;
+    height: 500px;
+    grid-template-areas: 
+    "inputs botao"
+    "tabela tabela";
+}
+
+.op .inputs{
+    display: grid;
+    grid-template-rows: 27px 27px 27px 27px 27px 27px 27px;
+    grid-area: inputs;
+
+}
+
+.op .botao{
+    display: grid;
+    margin: 0%;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 110px 110px;
+    grid-area: botao;
+
+}
+
+
+.op .termos{
+    margin: 0%;
+      
+}
+
+.op button{
+    font-size: 20px;
+color: rgb(190, 87, 221);
+background-color: #0e2fc2;
+height: 30px;
+width: 100px;
+cursor: pointer;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 7px;
+border-color: brown;
+}
+
+.op button:hover{
+color: deepskyblue;
+background-color: crimson;
+border-color: aqua;
+}
+
+.op input{
+   margin: 0%;
+    height: 20px;
+    width: 70px;
+}
+.op .tabela{
+    grid-area: tabela;
+    display: grid;
+
+    position: relative;
+    top:1px;
+    left: 1px;
+
+}
